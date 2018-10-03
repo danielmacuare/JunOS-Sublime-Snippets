@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+
+set applications application-set ${1:<APPSET_NAME>} application junos-https
+set applications application-set ${1:<APPSET_NAME>} application junos-ssh
+set applications application-set ${1:<APPSET_NAME>} application ${0:<APPOBJ_NAME>}
+
+]]></content>
+
+    <tabTrigger>appset</tabTrigger>
+    <description>Application-set syntax for JunOS</description>
+
+</snippet>

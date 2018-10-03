@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+set security zones security-zone ${1:<ZONE_NAME>} address-book address ${2:<OBJ_NAME>} ${0:<IP_RANGE>}/32
+
+]]></content>
+
+    <tabTrigger>zaobj</tabTrigger>
+    <description>Zone Address-object syntax for JunOS</description>
+</snippet>

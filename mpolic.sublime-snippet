@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+
+show security match-policies from-zone ${1:<OUTSIDE>} to-zone ${2:<INSIDE>} source-ip ${3:10.171.0.0} source-port 64215 destination-ip ${4:10.184.0.0} destination-port ${5:22} protocol ${0:tcp}
+
+]]></content>
+    <tabTrigger>ssmp</tabTrigger>
+    <description>show security match-policies syntax for JunOS</description>
+</snippet>

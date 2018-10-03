@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+
+set applications application UDP_${1:<PORT_NUMB>} protocol udp
+set applications application UDP_${1:<PORT_NUMB>} source-port ${2:1-65535}
+set applications application UDP_${1:<PORT_NUMB>} destination-port ${1:<PORT_NUMB>}
+
+]]></content>
+
+    <tabTrigger>appou</tabTrigger>
+    <description>Application-object (UDP) syntax for JunOS</description>
+
+</snippet>

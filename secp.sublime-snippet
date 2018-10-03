@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+set security policies from-zone ${1:OUTSIDE} to-zone ${2:INSIDE} policy ${3:<POLICY_NAME>} description "${4:<POLICY_DESCRIPTION>}"
+set security policies from-zone ${1:OUTSIDE} to-zone ${2:INSIDE} policy ${3:<POLICY_NAME>} match source-address ${5:<SOURCE_ASET>}
+set security policies from-zone ${1:OUTSIDE} to-zone ${2:INSIDE} policy ${3:<POLICY_NAME>} match destination-address ${6:<DEST_ASET>}
+set security policies from-zone ${1:OUTSIDE} to-zone ${2:INSIDE} policy ${3:<POLICY_NAME>} match application ${7:<APP_SET>}
+set security policies from-zone ${1:OUTSIDE} to-zone ${2:INSIDE} policy ${3:<POLICY_NAME>} then ${0:permit}
+
+]]></content>
+    <tabTrigger>secp</tabTrigger>
+    <description>Security Policy Syntax for JunOS</description>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

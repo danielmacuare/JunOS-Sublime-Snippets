@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+
+set security zones security-zone ${1:<ZONE_NAME>} address-book address-set ${2:<ASET_NAME>} address ${3:<OBJ1_NAME>}
+set security zones security-zone ${1:<ZONE_NAME>} address-book address-set ${2:<ASET_NAME>} address ${4:<OBJ1_NAME>}
+set security zones security-zone ${1:<ZONE_NAME>} address-book address-set ${2:<ASET_NAME>} address ${0:<OBJ1_NAME>}
+
+]]></content>
+
+    <tabTrigger>zaset</tabTrigger>
+    <description>Zone Address-set syntax for JunOS</description>
+
+</snippet>

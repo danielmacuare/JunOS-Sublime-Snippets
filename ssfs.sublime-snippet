@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+
+show security flow session source-prefix ${1:10.171.0.0} destination-prefix ${2:10.184.100.5} destination-port ${3:22} protocol ${0:tcp}
+
+]]></content>
+    <tabTrigger>ssfs</tabTrigger>
+    <description>show security match-policies syntax for JunOS</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+
+set security address-book global address-set ${1:<ASET_NAME>} address ${2:<OBJ1_NAME>}
+set security address-book global address-set ${1:<ASET_NAME>} address ${3:<OBJ2_NAME>}
+set security address-book global address-set ${1:<ASET_NAME>} address ${0:<OBJ3_NAME>}
+
+]]></content>
+
+    <tabTrigger>aset</tabTrigger>
+    <description>Address-set syntax for JunOS</description>
+
+</snippet>
