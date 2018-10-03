@@ -1,22 +1,25 @@
 # JunOS Sublime Text Snippets
 
-In this project you can find some useful snippets to create config for JunOS devices. The snippets will save you some time while preparing configs.  
+In this project you can find some useful snippets to create config for JunOS devices.  
+The snippets will save you some time while preparing configs.  
 
 
 ## Usage
 Write the keyword in the first columnt and press tab. To advance to the next placeholder keep pressing tab. 
 
-secp    - Security Policy (Done)
-gsecp   - Global Security Policy (Done)
-aobj    - Global Address Object (Done)
-zaobj   - Zone Address Object (Done)
-aset    - Address Set (Done)
-zaset   - Zone Address Set (Done)
-appou   - App Object (UDP) (Done)
-appot   - App Object (TCP) (Done)
-appset  - Application Set (Done)
-ssmp    - Match Policies (Done)
-ssfs    - Flow session (Done)
+Keyword | Meaning
+------- | -------
+secp | Security Policy.
+gsecp | Global Security Policy.
+aobj | Global Address Object.
+zaobj |  - Zone Address Object.
+aset | - Address Set.
+zaset | - Zone Address Set.
+appou   - App Object (UDP)
+appot   - App Object (TCP)
+appset  - Application Set.
+ssmp    - Show Security Match Policies.
+ssfs    - Show Security Flow session.
 
 
 ## Getting Started
