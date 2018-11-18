@@ -12,20 +12,22 @@ Keyword | Meaning
 secp | Security Policy.
 gsecp | Global Security Policy.
 aobj | Global Address Object.
-zaobj |  - Zone Address Object.
-aset | - Address Set.
-zaset | - Zone Address Set.
-appou   - App Object (UDP)
-appot   - App Object (TCP)
-appset  - Application Set.
-ssmp    - Show Security Match Policies.
-ssfs    - Show Security Flow session.
+zaobj | Zone Address Object.
+aset | Address Set.
+zaset | Zone Address Set.
+appou | App Object (UDP)
+appot | App Object (TCP)
+appset | Application Set.
+ssmp | Show Security Match Policies.
+ssfs | Show Security Flow session.
 
 
 ## Getting Started
-1. On MAC:
+1. If you are using a MAC:  
+```
 cd ~/Library/Application Support/Sublime Text 3/Packages/User/
-git clone 
+git clone git@github.com:danielmacuare/JunOS-Sublime-Snippets.git 
+```
 
 To create more snippets
 http://docs.sublimetext.info/en/latest/extensibility/snippets.html?highlight=snippet
