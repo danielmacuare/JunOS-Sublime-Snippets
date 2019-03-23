@@ -5,7 +5,7 @@ The snippets will save you some time while preparing configs.
 
 
 ## Usage
-Write the keyword in the first columnt and press tab. To advance to the next placeholder keep pressing tab. 
+Write the keyword in the first column and press tab. To advance to the next placeholder press tab. 
 
 Keyword | Meaning
 ------- | -------
