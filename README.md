@@ -25,7 +25,7 @@ ssfs | Show Security Flow session.
 ## Getting Started
 1. If you are using a MAC:  
 ```
-cd ~/Library/Application Support/Sublime Text 3/Packages/User/
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 git clone git@github.com:danielmacuare/JunOS-Sublime-Snippets.git 
 ```
 
