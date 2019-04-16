@@ -43,6 +43,6 @@ Sublime Text - https://www.sublimetext.com/3
 
 
 ### Usage
-![Address Object - aobj]
-(https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aobj.gif)
+Address Object - aboj  
+![Address Object - aobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aobj.gif)
 
