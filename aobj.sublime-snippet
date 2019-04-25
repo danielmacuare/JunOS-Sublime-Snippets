@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-set security address-book global address ${1:<OBJ_NAME>} ${0:<IP_RANGE>}/32
+set security address-book global address ${1:<OBJ_NAME>} ${2:<IP_RANGE>}/32
+set security address-book global address ${3:<OBJ_NAME>} ${4:<IP_RANGE>}/32
+set security address-book global address ${5:<OBJ_NAME>} ${6:<IP_RANGE>}/32
 
 ]]></content>
     <tabTrigger>aobj</tabTrigger>

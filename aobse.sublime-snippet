@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+set security address-book global address ${1:<OBJ_NAME>} ${2:<IP_RANGE>}/32
+set security address-book global address ${3:<OBJ_NAME>} ${4:<IP_RANGE>}/32
+set security address-book global address ${5:<OBJ_NAME>} ${6:<IP_RANGE>}/32
+
+set security address-book global address-set ${0:<ASET_NAME>} address ${1:<OBJ_NAME>}
+set security address-book global address-set ${0:<ASET_NAME>} address ${3:<OBJ_NAME>}
+set security address-book global address-set ${0:<ASET_NAME>} address ${5:<OBJ_NAME>}
+
+
+]]></content>
+    <tabTrigger>aobse</tabTrigger>
+    <description>Address-object + Address set syntax for JunOS</description>
+</snippet>

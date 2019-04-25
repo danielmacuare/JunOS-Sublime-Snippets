@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-set security policies global policy ${1:<POLICY_NAME>} match source-address ${2:<SOURCE_ASET>}
-set security policies global policy ${1:<POLICY_NAME>} match destination-address ${3:<DEST_ASET>}
-set security policies global policy ${1:<POLICY_NAME>} match application ${4:<APP_SET>}
+set security policies global policy ${1:<POLICY_NAME>} description "${2:<POLICY_DESCRIPTION>}"
+set security policies global policy ${1:<POLICY_NAME>} match source-address ${3:<SOURCE_ASET>}
+set security policies global policy ${1:<POLICY_NAME>} match destination-address ${4:<DEST_ASET>}
+set security policies global policy ${1:<POLICY_NAME>} match application ${5:<APP_SET>}
 set security policies global policy ${1:<POLICY_NAME>} then ${0:permit}
 
 ]]></content>

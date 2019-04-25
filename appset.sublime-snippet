@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 
-set applications application-set ${1:<APPSET_NAME>} application junos-https
-set applications application-set ${1:<APPSET_NAME>} application junos-ssh
+set applications application-set ${1:<APPSET_NAME>} application ${2:<APPOBJ_NAME>}
+set applications application-set ${1:<APPSET_NAME>} application ${3:<APPOBJ_NAME>}
 set applications application-set ${1:<APPSET_NAME>} application ${0:<APPOBJ_NAME>}
 
 ]]></content>

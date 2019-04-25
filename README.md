@@ -43,11 +43,13 @@ Sublime Text - https://www.sublimetext.com/3
 
 
 ### Usage
+`<keyword> + tab`
+
 Address Object - aobj  
 ![Address Object - aobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aobj.gif)
 
-Zone Address Object - zaobj  
-![Zone Address Object - zaobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/zaobj.gif)
+Zone Address Set - zaset  
+![Zone Address Object - zaobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/zaset.gif)
 
 Security Policy - secp  
 ![Security Policy - secp](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/secp.gif)

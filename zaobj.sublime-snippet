@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-set security zones security-zone ${1:<ZONE_NAME>} address-book address ${2:<OBJ_NAME>} ${0:<IP_RANGE>}/32
+set security zones security-zone ${1:<ZONE_NAME>} address-book address ${2:<OBJ_NAME>} ${3:<IP_RANGE>}/32
+set security zones security-zone ${1:<ZONE_NAME>} address-book address ${4:<OBJ_NAME>} ${5:<IP_RANGE>}/32
+set security zones security-zone ${1:<ZONE_NAME>} address-book address ${6:<OBJ_NAME>} ${0:<IP_RANGE>}/32
 
 ]]></content>
 
