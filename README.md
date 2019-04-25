@@ -43,6 +43,15 @@ Sublime Text - https://www.sublimetext.com/3
 
 
 ### Usage
-Address Object - aboj  
+Address Object - aobj  
 ![Address Object - aobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aobj.gif)
+
+Zone Address Object - zaobj  
+![Zone Address Object - zaobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/zaobj.gif)
+
+Security Policy - secp  
+![Security Policy - secp](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/secp.gif)
+
+Global Security Policy - gsecp  
+![Global Security Policy - gsecp](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/gsecp.gif)
 
