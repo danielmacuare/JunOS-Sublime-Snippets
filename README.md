@@ -48,12 +48,31 @@ Sublime Text - https://www.sublimetext.com/3
 Address Object - aobj  
 ![Address Object - aobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aobj.gif)
 
+
 Zone Address Object - zaobj  
 ![Zone Address Object - zaobj](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/zaobj.gif)
+
+
+Address Set - aset  
+![Address Set - aset](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/aset.gif)
+
+
+Zone Address Set - zaset  
+![Zone Address Set - zaset](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/zaset.gif)
+
+
+App Object (UDP) - appou 
+App Object (TCP) - appot
+![App Objects](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/appou-appot.gif)
+
+
+Application Set - appset  
+![Application Set - appset](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/appset.gif)
+
 
 Security Policy - secp  
 ![Security Policy - secp](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/secp.gif)
 
+
 Global Security Policy - gsecp  
 ![Global Security Policy - gsecp](https://github.com/danielmacuare/JunOS-Sublime-Snippets/blob/master/gifs/gsecp.gif)
-
