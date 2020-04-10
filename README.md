@@ -23,20 +23,28 @@ ssfs | Show Security Flow session.
 
 
 ## Getting Started
-1. If you are using a MAC:  
+1. If you are usiung Mac:
 ```
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 git clone git@github.com:danielmacuare/JunOS-Sublime-Snippets.git 
 ```
 
+2. If you are using Windows:
+```
+cd %APPDATA%/Sublime\ Text\ 3/Packages/Sublime\ Text\ 3\ Snippets
+git clone git@github.com:danielmacuare/JunOS-Sublime-Snippets.git 
+```
+3. If you are using Linux:
+```
+cd ~/.config/sublime-text-3/Packages/User
+git clone git@github.com:danielmacuare/JunOS-Sublime-Snippets.git
+```
+
+
 To create more snippets
 http://docs.sublimetext.info/en/latest/extensibility/snippets.html?highlight=snippet
 
 
-Clone the repo
-```
-git clone git@github.com:danielmacuare/MACs-Converter.git
-```
 
 ### Prerequisites
 Sublime Text - https://www.sublimetext.com/3
